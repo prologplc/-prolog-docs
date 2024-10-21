@@ -3,17 +3,19 @@
 В конфигурационном файле CODESYSControl.cfg
 
 для последовательной нумерации:
-
+```
 [SysCom]
 Linux.Devicefile=/dev/ttyS
+```
+При таких настройках COM1 в МЭК проекте будет образаться в /dev/ttyS0, COM2 -> /dev/ttyS1, COM3 -> /dev/ttyS2 и т.д.
 
 для непоследовавтельной нумерации:
-
+```
 [SysCom]
 Linux.Devicefile.1=/dev/ttyS0
 Linux.Devicefile.2=/dev/ttyS2
 и т.д.
-
+```
 
 ## Заметки
 
