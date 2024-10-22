@@ -14,8 +14,15 @@ Linux.Devicefile=/dev/ttyS
 [SysCom]
 Linux.Devicefile.1=/dev/ttyS0
 Linux.Devicefile.2=/dev/ttyS2
-и т.д.
 ```
+или для разных типов подключения нагляднее:
+
+```
+[SysCom]
+Linux.Devicefile.1=/dev/ttyUSB0
+Linux.Devicefile.2=/dev/ttyS0
+```
+В этом случае в CODESYS COM порт на USB будет COM1, а UART на GPIO будет COM2
 
 ## Заметки
 
